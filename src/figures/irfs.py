@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 log = logging.getLogger(__name__)
 
 fermi_livetime = 5e7 * u.s
-hawc_lifetime = 56.53223 * u.day
+hawc_lifetime = 1 * u.sday
 
 offset = [1] * u.deg
 
